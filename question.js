@@ -2,8 +2,8 @@
 
 class Question {
   constructor(content) {
-    this.question = content;
-    this.save();
+    this.question = content
+    this.save()
   }
 
   save() {
