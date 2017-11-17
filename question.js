@@ -2,13 +2,13 @@
 
 class Question {
   constructor() {
-    Question._All.push(this)
+    this.save()
   }
-  
+
   static All() {
     return this._All;
   }
-  
+
 }
 
 Question._All = [];
