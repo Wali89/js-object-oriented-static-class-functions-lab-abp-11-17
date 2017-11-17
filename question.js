@@ -5,7 +5,7 @@ class Question {
     this.save()
   }
 
-  save(){
+  save() {
     this.constructor._All.push(this)
   }
 
