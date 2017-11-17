@@ -2,7 +2,8 @@
 
 class Question {
   static All() {
-    return this.all
+    return this.all;
   }
 }
 
+Question._All = [];
